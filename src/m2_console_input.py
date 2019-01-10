@@ -3,8 +3,8 @@ This module demonstrates lets you practice INPUT from the CONSOLE.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Jacob Lauteri.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -31,10 +31,14 @@ def double_a_float():
          -6.28
     """
     # -------------------------------------------------------------------------
-    # TODO: 2. Implement and test this function.
+    # DONE: 2. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
+    number = float(input("What is your magic number: "))
+    total = round(number * 2)
 
+
+    print(total)
 
 def print_an_integer_many_times():
     """
@@ -65,7 +69,9 @@ def print_an_integer_many_times():
     # TODO: 3. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
-
+    cash = int(input("Gimme a number: "))
+    money = cash * 2
+    print()
 
 def print_an_integer_many_times_on_one_row():
     """
@@ -87,7 +93,9 @@ def print_an_integer_many_times_on_one_row():
     # HINT: One way to print on a SINGLE line is to build up a string
     #       and then print that (single) string.
     # -------------------------------------------------------------------------
-
+    cash = int(input("Gimme a number: "))
+    money = cash * 2
+    print()
 
 def input_it_all():
     """
